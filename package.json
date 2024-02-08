@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "Template for Discord bots that respond to slash commands",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "eslint lib/**.ts"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord.js": "^14.3.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.37.4",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

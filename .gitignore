@@ -1,0 +1,10 @@
+dist/
+node_modules/
+
+*.db
+*.code-workspace
+
+.env
+.env.*
+
+*.tsbuildinfo
