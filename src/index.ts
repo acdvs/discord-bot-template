@@ -4,16 +4,16 @@ import { ActivityType } from 'discord-api-types/v10';
 
 import Bot from './structures/Bot';
 
-const Palbot = new Bot(<ClientOptions>{
+const DiscordBot = new Bot(<ClientOptions>{
   presence: {
     activities: [
       {
         type: ActivityType.Watching,
-        name: `Palworld servers`,
+        name: 'something',
       },
     ],
   },
   intents: [],
 });
 
-Palbot.start(process.env.BOT_TOKEN!);
+DiscordBot.start(process.env.BOT_TOKEN as string);
